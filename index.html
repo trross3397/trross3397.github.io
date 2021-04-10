@@ -51,7 +51,10 @@ li a {
 li a: hover:not(.active) {
 	backround-color: pink;
 	}
-
+.active {
+	background-color: darkgray;
+	}
+	
 .leftcolumn {
 float: left;
 width: 50%;
@@ -95,11 +98,11 @@ ul.a {
 <h1>Trent M Ross</h>
 </div>
 
-<div class="topnav">
-<a href="#Home">Home</a>
-<a href=#Hobbies">Hobbies</a>
-<a href=#Favorites">Favorites</a>
-</div>
+<ul>
+	<li><a class="active" href="#home">Home</a></li>
+	<li> <a href=#Hobbies">Hobbies</a></li>
+		<li><a href=#Favorites">Favorites</a></li>
+</ul>
 
 <div class="row">
 	<div class="leftcolumn">
