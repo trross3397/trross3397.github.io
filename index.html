@@ -25,27 +25,32 @@ font-size: 30px;
 .footer {
 	background-color: lightgray;
 	text-align: center;
-	padding: 20px
+	padding: 20px;
+	}
+	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: mediumseagreen;
+	position: fixed;
+	top: 0;
+	width: 100%
 }
-.topnav {
-overflow: hidden;
-background-color: mediumseagreen;
+li {
+	float: left;
 }
 
-.topnav a {
-position: fixed;
-float: left;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
-
-.topnav a:hover {
-background-color: gray;
-color: black;
-}
+li a: hover:not(.active) {
+	backround-color: pink;
+	}
 
 .leftcolumn {
 float: left;
